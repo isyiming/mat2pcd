@@ -1,4 +1,4 @@
-fid=fopen('data.txe','w')%打开要写入数据的txt文件
+fid=fopen('data.txt','w')%打开要写入数据的txt文件
 [width,height,deepth]=size(FloE)%获取mat矩阵的大小，FloE为mat矩阵的句柄
 fprintf(fid,'%d',width)
 fprintf(fid,'%d',height)
